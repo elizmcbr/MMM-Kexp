@@ -1,0 +1,35 @@
+.kexp {
+    max-width: 330px;
+}
+
+.trackinfo {
+    display: inline-block;
+    max-width: 220px;
+    vertical-align: top;    
+}
+
+.trackinfo > p {
+    margin: 0px
+}
+
+.artist {
+    white-space: nowrap;
+    text-overflow: ellipsis;  
+    overflow: hidden;  
+}
+
+.album-name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;  
+}
+
+.albumart {
+    display: inline-block;    
+}
+
+.albumart > img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-left: 10px;
+}
